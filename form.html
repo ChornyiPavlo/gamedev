@@ -28,17 +28,26 @@
 </header>
 
 <div class="pricing-container tariffs">
-    <section class="contact-section" id="contact">
         <div class="container">
-            <h2>İletişime Geçin</h2>
-            <form class="contact-form" id="contactForm">
-                <input type="text" placeholder="Adınız" name="name" required>
-                <input type="email" placeholder="E-posta" name="email" required>
-                <input type="text" placeholder="Konu" name="msg" required>
-                <button type="submit">Gönder</button>
-            </form>
+            <h1 class="check_text text-center">Bize Ulaşın</h1>
+            <div class="contact_section2">
+                <div class="form-contact">
+                    <div id="successMessage" class="success_message" style="display: none;">İstek başarıyla gönderildi!</div>
+                    <form id="contactForm">
+                        <div class="input_wrapper">
+                            <input type="text" class="address_text" placeholder="İsim" name="name" required>
+                        </div>
+                        <div class="input_wrapper">
+                            <input type="tel" class="address_text" placeholder="Telefon" name="telephone" required>
+                        </div>
+                        <div class="input_wrapper">
+                            <input type="email" class="address_text" placeholder="Email" name="email" required>
+                        </div>
+                        <button type="submit" class="sub_bt">GÖNDER</button>
+                    </form>
+                </div>
+            </div>
         </div>
-    </section>
 </div>
 
 <footer>
