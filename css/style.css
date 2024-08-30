@@ -256,6 +256,7 @@ footer {
 }
 .pricing-card p.green {
   font-size: 32px;
+  font-weight: bold;
   color: green;
 }
 .get-started {
